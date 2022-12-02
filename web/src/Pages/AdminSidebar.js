@@ -26,17 +26,17 @@ const Sidebar =  ({children})=> {
             name:"View Feedbacks",
             icon:<FaEye/>
         },
-        {
-            path:"/admin/viewAppointments",
-            name:"View Appointments",
-            icon:<FaEye/>
-        },
-        {
-            path:"/deleteUser",
-            name:"Delete User",
-            icon:<FaUserMinus/>
+        // {
+        //     path:"/admin/viewAppointments",
+        //     name:"View Appointments",
+        //     icon:<FaEye/>
+        // },
+        // {
+        //     path:"/deleteUser",
+        //     name:"Delete User",
+        //     icon:<FaUserMinus/>
 
-        },
+        // },
         {
             path:"/logout",
             name:"Logout",
