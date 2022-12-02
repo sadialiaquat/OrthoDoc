@@ -1,0 +1,60 @@
+.Form-Group {
+	margin-left: 160px;
+    margin-top: 150px;
+    width: 75%;
+	padding: 20px;
+	border-style: none;
+	background-color:#35414F;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #96979b;
+	border-radius: 4px;
+}
+
+.Form-Row {
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 65px;
+    margin-right: 65px;
+	border-top: 1px solid #35414F;
+}
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 90%;
+	padding: 11px 15px 11px 11px;
+}
+
+.pay-button {
+	display: block;
+	font-size: 26px;
+	width: 200px;
+	height: 60px;
+	margin: 100px 540px 0;
+	background-color:#35414F;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #b0aeb0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	will-change: transform, background-color, box-shadow;
+	border: none;
+}
+
+.pay-button:hover{
+	background-color:rgba(43, 42, 43, 0.271);
+
+	transform: scale(0.99);
+}
+.payment-container{
+	height: 50%;
+	width: 60%;
+	background: rgb(156, 154, 154);
+	margin-left: 330px;
+	position: absolute;
+   margin-top: 100px;
+   border-radius: 15px;
+}
