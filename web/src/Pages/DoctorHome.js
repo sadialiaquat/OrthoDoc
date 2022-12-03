@@ -6,6 +6,8 @@ import { useState , useEffect } from "react";
 import { db } from '../firebase-config';
 import { collection, getDocs } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
+import { FaAngleRight } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 //const auth = getAuth();
 function DoctorHome () {
   const navigate = useNavigate();
@@ -40,7 +42,7 @@ function DoctorHome () {
                     className="search__input"
                     type="text"
                     id="search"
-                    placeholder="Search here..."
+                    placeholder="Search for patient here..."
                     //onKeyUp={handleSubmit} 
                     onChange={(e) => setQuery(e.target.value)}
                 />
@@ -53,7 +55,7 @@ function DoctorHome () {
             user.displayName.toLowerCase().includes(query)
           ).map((user) => (
             <a onClick={() => navigate('/viewDoctorProfile', { state: { id: user.email } })}> <li className="fetch-doctor" key={user.displayName}>
-              {user.email}<br />{user.displayName}
+            <FaUserCircle style={{marginLeft:40,height:50, width:50,marginTop:30}}/>  <div style={{marginLeft:170,position:"absolute",marginTop:-60}}> {user.email}</div> <br /><div style={{marginLeft:170, marginTop:-10}}>{user.displayName} </div><div><FaAngleRight style={{marginLeft:790,height:40, position:"absolute", marginTop:-70}}/></div>
             </li></a>
 
           ))}

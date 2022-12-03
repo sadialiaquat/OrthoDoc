@@ -37,12 +37,14 @@ function ViewAppointmentsByAdmin(){
    
 return( <>
  <AdminSidebar>
-    <div className="main-main">
+    <div className="search-main">
       <div className="search-heading">View Appointments</div>   
+      <div className='app-hh'>  <div className='docc-email'>Booked for</div> <div className='pat-email'>Booked by</div> <div className='appp-date'>Appointment Date</div> <div className='appp-time'>Appointment Time</div>  <div className='appp-status'>Appointment Status</div></div> 
       
       {
          appointments.map((slot)=>
-         <p>{slot.doctorId}, {slot.status}  ,{slot.timeSlot}, { new Date(slot.date.seconds*1000).toDateString()  } </p>
+      <div className='appp-main'>   <div className='id-appp'>{slot.doctorId}</div> <div className='pat-id'>{slot.patientId} </div>  <div className='slott-time'>{slot.timeSlot} </div>  <div className='slott-date'> { new Date(slot.date.seconds*1000).toDateString()  } </div> <div className='slott-status'> {slot.status}  </div> </div>
+         
 
 
          )

@@ -3,10 +3,12 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Sidebar from './Sidebar';
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
+import { FaAngleRight } from "react-icons/fa";
 //import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { db } from '../firebase-config';
 import { collection, doc, getDocs } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
+import { FaUserMd } from "react-icons/fa";
 //const auth = getAuth();
 function Home() {
   const navigate = useNavigate();
@@ -48,8 +50,8 @@ function Home() {
             user.displayName.toLowerCase().includes(query)
           ).map((user) => (
             <a onClick={() => navigate('/viewProfile', { state: { id: user.email } })}> <li className="fetch-doctor" key={user.displayName}>
-              {user.email}<br />{user.displayName}
-            </li></a>
+             <FaUserMd style={{marginLeft:40,height:50, width:50,marginTop:30}}/> <div style={{marginLeft:170,position:"absolute",marginTop:-60}}> {user.email}</div> <br/> <div style={{marginLeft:170, marginTop:-10}}>{user.displayName} </div><div><FaAngleRight style={{marginLeft:790,height:40, position:"absolute", marginTop:-70}}/></div>
+            </li></a> 
 
           ))}
 

@@ -12,25 +12,23 @@ function DoctorUploadxray(){
    <h2 className="uploadxray-heading"> Upload X-Rays </h2>
    <div className="uploadxray-container">
       <ol className='instructions'>
-         <h1>Instructions for uplaoding:</h1>
-         <li>The file format must be JPEG or PNG.</li>
-         <li>For best results, the photo must be of high quality.</li>
-         <li>Please be patient after uploading the photo; processing the photo may take some time.</li>
+         <h1 style={{marginLeft:-10}}>Instructions for uplaoding:</h1>
+         <li style={{marginLeft:40}}>The file format must be in PNG.</li>
+         <li style={{marginLeft:40}}>For best results, the photo must be of high quality.</li>
+         <li style={{marginLeft:40}}>Please be patient after uploading the photo; processing the photo may take <br/>some time.</li>
       </ol>
-      <div className="upload-button" ><h className='format'>*only jpeg, png format</h>
+      <div className="upload-button" ><h className='format'>*only png format</h>
    <input id='imgs' type="file" className='input' accept="image/png, image/jpeg" style={{fontSize:25}}  onChange={(e)=>setData(e.target.files)} /></div>
    </div>
-   <h2 className="download-heading"> Downlaod Report </h2>
+   <h2 className="download-heading"> View Diagnosis Results </h2>
    <div className="uploadxray-container">
       <ol className='instructions'>
-         <h1>Instructions for downloading:</h1>
-         <li>Select your downloading format. </li>
-         <li>Document can be downloaded in JPEG,PNG and PDF format. </li>
-         <li>Please check the quality of the results before leaving the page.</li>
+         <h1 style={{marginLeft:-10}}>Instructions for downloading:</h1>
+         <li style={{marginLeft:40}}>Click on the predict button to view the results </li>
 
       </ol>
       <div>
-      <button className='download-button'type='download' onClick={handleclick}><h5 className='download'>Download</h5></button>
+      <button className='download-button'type='download' onClick={handleclick}><h5 className='download'>Predict</h5></button>
    </div>
    </div> </div> 
    </DoctorSidebar>

@@ -105,7 +105,7 @@ function ViewFeedbacks () {
             <ul className="view-f">
          {data.map((user) => (
            <li className="fetch-feedbacks" key={user.email}>
-          <AiTwotoneMail/>  : {user.email}<br/> <AiOutlineComment/> : {user.Message} <br/> <FaStar/>  : {user.Rating}
+        <div>  <AiTwotoneMail style={{marginLeft:10}}/>  : {user.email}</div>  <div  style={{position:"absolute", marginLeft:590,marginTop:-55}}><AiOutlineComment style={{marginLeft:20}}/> : {user.Message}</div>  <div style={{position:"absolute", marginLeft:1190,marginTop:-55}}> <FaStar style={{marginLeft:20}}/>  : {user.Rating}</div>
           </li>
        ))}
        </ul>

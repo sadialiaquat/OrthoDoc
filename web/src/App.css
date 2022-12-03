@@ -156,6 +156,8 @@ main{
     margin-left: -315px;
     transition: all 0.5s;
     border-radius: 10px;
+    border: 2px solid rgb(145, 142, 142);
+
 }
 .top_section{
     display: flex;
@@ -190,13 +192,13 @@ main{
     background:white;
     color:#3f5063;
     transition: all 0.5s;
-    border-radius: 15px;
+ 
 }
 
 .active{
-    color:#3f5063;
-    background:#f1f5f9;
-    border-radius: 15px;
+    color:#f1f5f9;
+    background:black;
+   
 }
 .icon, .link_text{
     font-size: 40px;
@@ -309,6 +311,8 @@ overflow-y: scroll;
     cursor: pointer;
     border-radius: 6px;
     padding: 10;
+    box-shadow: 0px 14px 20px rgba(116, 118, 121, 0.915);
+    
 }
 .feedback-button:hover {background-color:#727786;}
 .feedback-main{
@@ -352,7 +356,7 @@ border-radius: 15px;
   font-size: 40px;
 }
 .uploadxray-container{
-  height: 25%;
+  height: 30%;
   width: 50%;
   position: absolute;
   background-color:#fff;
@@ -360,6 +364,7 @@ border-radius: 15px;
   margin-left: 450px;
   margin-top: 20px;
   box-shadow: 0px 14px 80px rgba(82, 89, 100, 0.2);
+  padding-top: 20px;
 }
 .instructions{
   font-size:x-large;
@@ -400,7 +405,7 @@ border-radius: 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 12px 730px;
+  margin: 12px 440px;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 6px;
@@ -706,6 +711,7 @@ position: absolute;
   margin-left: 100px;
   margin-top: 0px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 
 .squat-button {
@@ -746,6 +752,7 @@ position: absolute;
   margin-left: 100px;
   margin-top: 30px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .legstretch-button{
   background-color:#3f5063;
@@ -769,6 +776,7 @@ position: absolute;
   margin-left: 470px;
   margin-top: -660px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 
 .pushups-button{
@@ -793,6 +801,7 @@ position: absolute;
   margin-left: 470px;
   margin-top: 27px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .pistol-button{
   background-color:#3f5063;
@@ -816,6 +825,7 @@ position: absolute;
   margin-left: 840px;
   margin-top: -656px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .pikewalk-button{
   background-color:#3f5063;
@@ -839,6 +849,7 @@ position: absolute;
   margin-left: 840px;
   margin-top: 22px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .jumpingjack-button{
   background-color:#3f5063;
@@ -862,6 +873,7 @@ position: absolute;
   margin-left: 1208px;
   margin-top: -651px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .crossjumps-button{
   background-color:#3f5063;
@@ -885,6 +897,7 @@ position: absolute;
   margin-left: 1208px;
   margin-top: 20px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .crossjumpss-button{
   background-color:#3f5063;
@@ -908,6 +921,7 @@ position: absolute;
   margin-left: 1580px;
   margin-top:-649px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .burpee-button{
   background-color:#3f5063;
@@ -931,6 +945,7 @@ position: absolute;
   margin-left: 1580px;
   margin-top:24px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .boxjump-button{
   background-color:#3f5063;
@@ -954,6 +969,7 @@ position: absolute;
   margin-left: 650px;
   margin-top: 33px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .bicyclecrunch-button{
   background-color:#3f5063;
@@ -977,6 +993,7 @@ position: absolute;
   margin-left: 995px;
   margin-top: -315px;
   border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .squat-description{
   height: 15%;
@@ -989,6 +1006,7 @@ position: absolute;
  padding: 30px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .sitstand-description{
   height: 10%;
@@ -1001,6 +1019,7 @@ position: absolute;
  padding: 20px;
  border-radius: 15px;
  font-family: Arial, Helvetica, sans-serif;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .patient-profile{
   background:#f1f5f9;
@@ -1216,6 +1235,7 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .pistol-description{
   height: 12.5%;
@@ -1228,6 +1248,7 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .pikewalk-description{
   height: 8%;
@@ -1240,6 +1261,7 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .jumpingjacks-description{
   height: 12.5%;
@@ -1252,6 +1274,7 @@ margin-left: 1155px;
  padding: 20px;
  border-radius: 15px;
  font-family: Arial, Helvetica, sans-serif;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .crossjumpR-description{
   height: 10%;
@@ -1264,6 +1287,7 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .crossjump-description{
   height: 10%;
@@ -1276,6 +1300,7 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .burpee-description{
   height: 10%;
@@ -1288,6 +1313,7 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
 }
 .boxjump-description{
   height: 12.5%;
@@ -1300,7 +1326,8 @@ margin-left: 1155px;
  padding: 20px;
  border-radius: 15px;
  font-family: Arial, Helvetica, sans-serif;
-}
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
+} 
 .bicyclecrunch-description{
   height: 10.5%;
   width: 50%;
@@ -1312,7 +1339,8 @@ margin-left: 1155px;
  padding: 20px;
  font-family: Arial, Helvetica, sans-serif;
  border-radius: 15px;
-}
+ box-shadow: 0px 10px 40px rgba(116, 119, 123, 0.821);
+}  
 .attention{
   height: 3.5%;
   width: 55%;
@@ -1371,10 +1399,12 @@ margin-left: 1155px;
     cursor: pointer;
     border-radius: 6px;
     padding: 10px;
-    height:70px ;
-    width:150px;
+    height:50px ;
+    width:130px;
     border: 2px;
     position: absolute;
+    box-shadow: 0px 4px 10px rgba(1, 18, 46, 0.848);
+
   }
   .adminhome-button:hover {background-color:#929498;}
   .Upload{
@@ -1719,7 +1749,7 @@ margin-left: 1155px;
 .fetch-doctor{
   background-color:#ffff;
   border-radius: 15px;
-  margin-top: 17px;
+  margin-top: 19px;
   margin-left: 480px;
   padding: 10px;
   padding-left: 20px;
@@ -1746,13 +1776,13 @@ ul{list-style-type:none;}
 
 .fetch-feedbacks{
   background-color: #ffff;
-  border-radius: 5px;
+  border-radius:15px;
   margin-top: 20px;
   margin-left: 300px;
-  padding: 10px;
+  padding: 30px;
   padding-left: 50px;
   font-size: larger;
-  box-shadow: 0px 14px 80px rgba(82, 89, 100, 0.2);
+  box-shadow: 0px 14px 40px rgba(104, 106, 109, 0.548);
 }
 .view-main{
   height: 81%;
@@ -2114,8 +2144,8 @@ margin-top: -30px;
 }
 .fetchh-doctor{
   background-color: #fff;
-  border-radius: 5px;
-  margin-top: 17px;
+  border-radius: 15px;
+  margin-top: 20px;
   margin-left: 390px;
   padding: 10px;
   padding-left: 50px;
@@ -2139,6 +2169,17 @@ margin-top: -30px;
   padding-left: 50px;
   padding-top: 30px;
 }
+.appp-main{
+  height: 140px;
+  width: 1600px;
+  background: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
 .id-app{
 
 position: absolute;
@@ -2151,7 +2192,36 @@ border-radius: 15px;
 padding: 10px;
 box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
 padding-left: 20px;
+
 }
+
+.id-appp{
+
+  position: absolute;
+  height: 80px;
+  width: 290px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
+  padding-left: 20px;
+  }
+  .pat-id{
+
+    position: absolute;
+    height: 80px;
+    width: 290px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
+    padding-left: 20px;
+    margin-left: 350px;
+    }
 .slot-status{
 position: absolute;
 height: 60px;
@@ -2167,6 +2237,24 @@ padding: 10px;
 padding-left: 60px;
 box-shadow: 0px 2px 7px rgb(2, 124, 84);
 }
+
+.slott-status{
+  position: absolute;
+  height: 60px;
+  width: 200px;
+  color: rgb(4, 196, 132);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 1210px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 60px;
+  box-shadow: 0px 2px 7px rgb(2, 124, 84);
+  }
+
+
 .slot-time{
   position: absolute;
   height: 80px;
@@ -2180,6 +2268,21 @@ box-shadow: 0px 2px 7px rgb(2, 124, 84);
   padding-left: 60px;
   box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
   }
+
+  .slott-time{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 950px;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 60px;
+    box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
+    }
+
   .slot-date{
     position: absolute;
     height: 80px;
@@ -2193,6 +2296,22 @@ box-shadow: 0px 2px 7px rgb(2, 124, 84);
     box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
 
     }
+
+    .slott-date{
+      position: absolute;
+      height: 80px;
+      width: 200px;
+      background:#fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      margin-left: 690px;
+      border-radius: 15px;
+      padding: 14px; 
+      box-shadow: 0px 4px 20px rgba(56, 126, 231, 0.2);
+  
+      }
+
+
     .app-h{
       height: 80px;
       width: 1300px;
@@ -2250,3 +2369,75 @@ box-shadow: 0px 2px 7px rgb(2, 124, 84);
            margin-top: -10px;
            font-weight: bold;
             }
+
+            .app-hh{
+              height: 80px;
+              width: 1600px;
+              background: #fff;
+              padding: 10px;
+              margin-top: 30px;
+              margin-left: 150px;
+              border-radius: 15px;
+              padding-left: 50px;
+              padding-top: 30px;
+            }
+            .docc-email{
+              position: absolute;
+        
+              background: #fff;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 25px;
+              border-radius: 15px;
+              margin-top: -10px;
+              font-weight: bold;
+           
+              }
+              .pat-email{
+                position: absolute;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 25px;
+                border-radius: 15px;
+                margin-top: -10px;
+                font-weight: bold;
+             margin-left: 350px;
+                }
+        
+              .appp-status{
+                position: absolute;
+         
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 25px;
+                margin-left: 900px;
+                border-radius: 15px;
+                margin-top: -10px;
+                font-weight: bold;
+             margin-left: 1220px;
+              
+                }
+                .appp-time{
+                  position: absolute;
+                 
+    
+                  background: #fff;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 25px;
+                  margin-left: 620px;
+                  border-radius: 15px;
+                  margin-top: -10px;
+                  font-weight: bold;
+                  margin-left: 950px;
+
+                  }
+                  .appp-date{
+                    position: absolute;
+                  
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 25px;
+                    margin-left: 350px;
+                    border-radius: 15px;
+                   margin-top: -10px;
+                   font-weight: bold;
+                   margin-left: 690px;
+                    }
+
+

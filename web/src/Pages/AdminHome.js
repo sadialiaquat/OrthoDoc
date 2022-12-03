@@ -6,6 +6,8 @@ import { useState , useEffect } from "react";
 import { db } from '../firebase-config';
 import { collection, doc, getDocs } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
+import { FaUserCircle } from "react-icons/fa";
+import { FaUserMd } from "react-icons/fa";
 function AdminHome () {
   const navigate = useNavigate();
     var Doctors=[];
@@ -39,7 +41,7 @@ function AdminHome () {
             <ul className="view-results">
           {data.map((user) => (
             <a onClick={() => navigate('/admin/viewProfile', { state: { id: user.email } })}> <li className="fetchh-doctor" key={user.displayName}>
-              {user.email}<br />{user.displayName} <div><button className='adminhome-button'type='submit'><h5 className='Upload'>View</h5></button></div>
+             <FaUserMd style={{marginLeft:40,height:50, width:50,marginTop:30}}/> <div style={{marginLeft:170,position:"absolute",marginTop:-60}}> {user.email}</div><br /> <div style={{marginLeft:170, marginTop:-10}}>{user.displayName} </div> <div><button className='adminhome-button'type='submit'><h5 className='Upload'>View</h5></button></div>
             </li></a>
 
           ))}
